@@ -40,5 +40,4 @@ func DatabaseCreate(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Println("Fields added", dbFields)
-
 }
